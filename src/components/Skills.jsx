@@ -1,0 +1,60 @@
+export default function Skills() {
+  const skills = [
+    {
+      title: "Advanced Excel",
+      icon: "/my-portfolio/images/microsoft-excel.svg",      
+    },
+    {
+      title: "AI + Prompting ",
+      icon: "/my-portfolio/images/ai.png",      
+    },
+    {
+      title: "Power Query",
+      icon: "/my-portfolio/images/pq.png",    
+    },
+    {
+      title: "MYSQL & PostGreSQL",
+      icon: "/my-portfolio/images/postgresql.svg",    
+    },
+    {
+      title: "Microsoft Power BI",
+      icon: "/my-portfolio/images/pbi.png",    
+    },
+    {
+      title: "Tableau",
+      icon: "/my-portfolio/images/tableau.png",    
+    },
+    {
+      title: "Python",
+      icon: "/my-portfolio/images/python.svg",    
+    },
+    {
+      title: "Pandas",
+      icon: "/my-portfolio/images/Pandas.svg",    
+    },
+    {
+      title: "NumPy",
+      icon: "/my-portfolio/images/NumPy.svg",    
+    },
+    {
+      // title: "Threat Detection & Risk Mitigation",
+      title: "Cyber Security Analysis ",
+      icon: "/my-portfolio/images/cbi.png",    
+    }
+    
+  ];
+
+  return (
+    <section id="skills" className="p-8 bg-white">
+      <h3 className="text-2xl font-bold mb-4 text-center">Area of Expertise</h3>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {skills.map(dt => (
+          <div key={dt.title} className="bg-gray-100 p-4 rounded shadow text-center font-semibold">
+            <img src={dt.icon} alt={dt.title} className="mx-auto h-12 w-12 mb-2" />
+            {dt.title}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
