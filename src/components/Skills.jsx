@@ -35,11 +35,6 @@ export default function Skills() {
     {
       title: "NumPy",
       icon: "/my-portfolio/images/NumPy.svg",    
-    },
-    {
-      // title: "Threat Detection & Risk Mitigation",
-      title: "Cyber Security Analysis ",
-      icon: "/my-portfolio/images/cbi.png",    
     }
     
   ];
