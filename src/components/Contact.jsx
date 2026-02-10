@@ -18,18 +18,18 @@ export default function Contact() {
           className="flex items-center space-x-2 text-red-600 hover:text-red-800"
         >
           <MdEmail className="text-2xl" />
-          <span>shamsherda99@gmail.com</span>
+          <span>shamsherdevp@gmail.com</span>
         </a>
 
         {/* LinkedIn */}
         <a 
-          href="https://www.linkedin.com/in/shamsherali-da/" 
+          href="https://www.linkedin.com/in/shamsherali-dev/" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex items-center space-x-2 text-blue-600 hover:text-blue-800"
         >
           <FaLinkedin className="text-2xl" />
-          <span>shamsherali-da</span>
+          <span>shamsherali-dev</span>
         </a>
 
         {/* GitHub */}
@@ -45,13 +45,13 @@ export default function Contact() {
 
         {/* WhatsApp */}
         <a 
-          href="https://wa.me/923701158492" 
+          href="https://wa.me/923058840463" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex items-center space-x-2 text-green-600 hover:text-green-800"
         >
           <FaWhatsapp className="text-2xl" />
-          <span>+92 370 1158492</span>
+          <span>+923058840463</span>
         </a>
       </div>
     </section>
