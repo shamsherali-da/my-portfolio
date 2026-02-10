@@ -12,7 +12,7 @@ export default function Header() {
         {/* Mobile: only name */}
          <span className="md:hidden">Shamsher Ali</span>
           {/* Desktop: full title */} 
-         <span className="hidden md:inline">Shamsher Ali | Data Analyst & BI Specialist </span> </h1>
+         <span className="hidden md:inline">Shamsher Ali | Web-Dev </span> </h1>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-4">

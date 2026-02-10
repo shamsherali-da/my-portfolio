@@ -1,5 +1,42 @@
 export default function Skills() {
   const skills = [
+    
+    {
+      title: "HTML 5 ",
+      icon: "/my-portfolio/images/html5.png",      
+    },
+    {
+      title: "CSS 3 ",
+      icon: "/my-portfolio/images/css3.png",      
+    },
+    {
+      title: "JavaScript",
+      icon: "/my-portfolio/images/js.png",      
+    },
+    {
+      title: "Bootstrap 5",
+      icon: "/my-portfolio/images/bootstrap.png",      
+    },
+    {
+      title: "React Js",
+      icon: "/my-portfolio/images/reactjs.png",      
+    },
+    {
+      title: "Tailwind CSS ",
+      icon: "/my-portfolio/images/tailwindcss.png",      
+    },
+    {
+      title: "Node JS",
+      icon: "/my-portfolio/images/nodejs.png",      
+    },
+    {
+      title: "Express JS",
+      icon: "/my-portfolio/images/expressjs.png",      
+    },
+    {
+      title: "Mongo DB",
+      icon: "/my-portfolio/images/mongodb.png",      
+    },
     {
       title: "Advanced Excel",
       icon: "/my-portfolio/images/microsoft-excel.svg",      
