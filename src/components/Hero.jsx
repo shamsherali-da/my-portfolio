@@ -4,7 +4,7 @@ export default function Hero() {
   {/* Left Side: Text */}
   <div className="text-center md:text-left md:w-1/2 px-6">
   <h2 className="text-3xl font-bold mb-4">
-    Building Scalable Web Solutions & Unlocking Growth with Data Insights
+   Building Scalable Web Solutions with Modern Technologies
   </h2>
   <p className="text-lg">
     Software Engineer | MERN Stack Developer | Frontend & Backend Specialist | BSCS Graduate | Freelance Web Solutions | Data Analyst & Business Intelligence
